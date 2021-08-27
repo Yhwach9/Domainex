@@ -28,11 +28,14 @@ if result_num == 1:
         print(socket_print)
 
     
-    elif result_num2 == 3:
-        domain3 = input("Enter Domain Url: ")
-        socket_print = socket.gethostbyname(domain3)
-        print(socket_print)
-
+    try:
+        if result_num2 == 3:
+            domain3 = input("Enter Domain Url: ")
+            socket_print = socket.gethostbyname(domain3)
+            print(socket_print)
+    except socket.gaierror:
+        print("Please Write full Url")
+        quit()
     #if u want continue
 
     print("did u want get host by addr?")
