@@ -7,7 +7,7 @@ this tool to find website IP using Domain Name or Find Domain using IP
 
 
 
-`git clone https://github.com/Yhwach9/domainex.git`
+`git clone https://github.com/Yhwach9/Domainex.git`
 
 `cd domainex`
 
